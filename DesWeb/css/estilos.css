@@ -1,0 +1,252 @@
+/* header{
+    background: gold !important;
+} */
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:0;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    /* font-style: italic; */
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1em;
+    letter-spacing: -.2px;
+    color: white;
+    /* text-transform: uppercase; */
+    /* text-decoration: underline; */
+    margin: 0;
+}
+ h1 strong{
+     color: #026fff;
+ }
+
+ h2{
+
+    color:#026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+ }
+.hero{
+    height: 300px;
+    background-image: url('../imagenes/portada.jpg');
+    background-color: #1b2127;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+}
+.portfolio{
+    background: #dbc8c8;
+    padding: 20px;
+}
+.project{
+    /* border-top: 10px solid red;
+    border-right: 10px solid green;
+    border-left: 10px solid blue;
+    border-bottom: 10px solid yellow; */
+/* border-width: 15px;
+    /* border-color: red; */
+    /*border-style: solid; */
+    border: 1px solid grey;
+    border-radius: 10px;
+    /* border-top-left-radius: 50px; */
+    padding: 20px;
+    /* margin: 10px; */
+    margin-bottom: 15px;
+background: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.project-course{
+    margin: 10px 0;
+}
+
+.project-strong{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.project-date, project-url{
+    margin:10px 0;
+}
+.project-description{
+    font-size: 20px;
+}
+.project-title{
+font-size: 30px;
+margin-top:0;
+margin-bottom:10px 0;
+}
+.project-details{
+    width: 500px;
+  /* margin: 0 auto; */
+}
+.menu{
+    height: inherit;
+}
+.project-imageContainer{
+   
+    width: 500px;
+}
+.header ul{
+    display: flex;
+    height: inherit;
+    align-items: center;
+    height: inherit;
+}
+.header ol li{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+ol,ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+figure{
+    margin: 0;
+}
+
+.header{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    padding: 0 10px;
+}
+
+.flexbox{
+display:flex;
+/* flex-direction: column; */
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+justify-content: space-between;
+}
+
+.box{
+width: 50px;
+height: 50px;
+margin: 5px;
+border: 1px solid red;
+flex-shrink: 0;
+}
+
+.footer{
+color:white;
+display: flex;
+align-items: center;
+    background-color: #1b2127;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+
+.footer a{
+    color:white;
+}
+.event-list-title{
+    margin-left: 10px;
+
+}
+.event-list{
+    display: flex;    
+}
+.event{
+    border: 1px solid red;
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #9dd1f0;
+}
+.event-detail{
+    margin:20px 40px;
+    margin-top:-40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+.event-image{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+.event-description-url{
+    border: 1px solid #026fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #026fff;
+    border-radius: 5px;
+}
+.event-description{
+    text-align: left;
+}
+.contact{
+    background-color: #056fff;
+    color:white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social{
+    
+}
+.social-link{
+    display: inline-block;
+    width:50px;
+    height: 50px;
+  
+}
+
+.social-link.twitter{
+    background-image: url('../imagenes/tw.png')
+}
+.social-link.facebook{
+    background-image: url('../imagenes/fb.png')
+}
+.social-link.github{
+    background-image: url('../imagenes/wa.png')
+}
+.social-link.instagram{
+    background-image: url('../imagenes/li.png')
+}
+
+.form-email input{
+border-color: grey;
+padding: 20px;
+
+}
+
+
+@media screen and (max-width:768px)
+{
+
+    body{
+        border: 10px solid green;
+    }
+}
