@@ -250,3 +250,24 @@ padding: 20px;
         border: 10px solid green;
     }
 }
+
+@media screen and (max-width:1024px)
+{
+    body{
+        border: 10px solid red;
+    }
+}
+
+@media screen and (max-width:480px)
+{
+    body{
+        border: 10px solid blue;
+    }
+}
+
+@media screen and (max-width:320px)
+{
+    body{
+        border: 10px solid yellow;
+    }
+}
