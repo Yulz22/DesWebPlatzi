@@ -242,6 +242,17 @@ padding: 20px;
 
 }
 
+.container{
+    max-width: 1000px;
+    /* width: 100%; */
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
 
 @media screen and (min-width:768px) and (max-width:1024px)
 {
@@ -250,12 +261,27 @@ padding: 20px;
     }
 }
 
-@media screen and (min-width:480px) and (max-width:768px)
+@media screen and (max-width:767px)
 {
 
     body{
         border: 10px solid green;
     }
+    .header{
+        display: block;
+        height: auto;
+    }
+    .header ul{
+        display: initial;
+    }
+    .header ul li{
+        height: 50px;
+        text-align: center;
+    }
+    .header .logo{
+        text-align: center;
+    }
+
 }
 
 @media screen and (min-width:320px) and (max-width:480px)
